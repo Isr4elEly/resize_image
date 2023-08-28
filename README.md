@@ -1,6 +1,8 @@
 # Redimensionar imagens para inserir em relatórios
 
-Autor: Israel Oliveira
+*Autor:* **Israel Oliveira**
+
+*Instituição:* **INCRA - Bahia.**
 
 - As fotos tiradas com uma alta definição ao serem inseridas em relatórios com uma alta quantidade de imagens geral arquivos .pdf ou de texto muito pesado. Isso ocorre também nos relatórios salvos com .html ou confeccionados em sistemas web.
 - O script python vai redimensionar as imagens mantendo sua orientação para o padrão, ou seja, retrato ou paisagem;
