@@ -1,16 +1,23 @@
 # Redimensionar imagens para inserir em relatórios
 
-*Autor:* **Israel Oliveira**
+> *Autor:* **Israel Oliveira**
 
-*Formação:* **Engº Agrônomo**
+> *Formação:* **Engº Agrônomo**
 
-*YouTube:* **@israel_oliveira**
+> *YouTube:* [@israel_oliveira](https://www.youtube.com/channel/UCEOTOAzLA0BCr5hUbj5w_wQ)
 
-*Instituição:* **INCRA - Bahia.**
+> *LinkedIn:* [Israel Oliveira](https://www.linkedin.com/in/israeloliveira-agro/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B7xgBgGK2TyCAgRbd8COBAw%3D%3D)
 
-- As fotos tiradas com uma alta definição ao serem inseridas em relatórios com uma alta quantidade de imagens geral arquivos .pdf ou de texto muito pesado. Isso ocorre também nos relatórios salvos com .html ou confeccionados em sistemas web.
-- O script python vai redimensionar as imagens mantendo sua orientação para o padrão, ou seja, retrato ou paisagem;
-- Salve o script na pasta de fotos e rode o camando
+> *Instagram:* [israel_ely_agro](https://www.instagram.com/israel_ely_agro/)
+
+> *Instituição:* **INCRA - Bahia.**
+
+As fotos tiradas com uma alta definição ao serem inseridas em relatórios com uma alta quantidade de imagens geral arquivos .pdf ou de texto muito pesado. Isso ocorre também nos relatórios salvos com .html ou confeccionados em sistemas web.
+
+O script python vai redimensionar as imagens mantendo sua orientação para o padrão, ou seja, retrato ou paisagem;
+
+## Procedimentos
+- Salve o script na pasta cam as imagens
 - Abras o script e coloque o caminho para a pasta de fotos
 
 ~~~
@@ -26,6 +33,7 @@
 
 ## Requerimentos
 
+- Python > 3.9
 - Pillow 10.0.0
   
  > `pip install Pillow`
