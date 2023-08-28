@@ -4,13 +4,16 @@ from PIL import Image
 
 # cria a variável da nova largura
 new_width = 0
+new_dir = './resized'
+os.mkdir(new_dir)
+
 
 def calc_new_height(width, height, new_width):
     return round(new_width * height / width)
 
 def resize(root, file, new_width, new_img_name):
     original_img_path = os.path.join(root, file)
-    new_img_path = os.path.join(root, new_img_name)
+    new_img_path = os.path.join(new_dir, new_img_name)
 
     pillow_img = Image.open(original_img_path)
     width, height = pillow_img.size
@@ -43,14 +46,14 @@ def files_cheks(root, file):
     if not is_image(extension):
         return 
     
-    flag = 'resized_'
+    flag = 'new_'
     
     if flag in file:
         return
 
     new_img_name = flag + filename + extension
 
-    resize(root=root, file=file, new_width=new_width, new_img_name = new_img_name)
+    resize(root=root, file=file, new_width=new_width, new_img_name=new_img_name)
 
 def files_loop(root, files):
         for file in files:
@@ -64,5 +67,6 @@ def main(root_folder):
 
 
 if __name__ == '__main__':
-    root_folder = './photo'
+    # coloque o caminho para a pasta de imagens que deseja redimensionar
+    root_folder = './imagens'
     main(root_folder)
