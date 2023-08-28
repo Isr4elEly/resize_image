@@ -4,6 +4,8 @@
 
 *Formação:* **Engº Agrônomo**
 
+*YouTube:* **@israel_oliveira**
+
 *Instituição:* **INCRA - Bahia.**
 
 - As fotos tiradas com uma alta definição ao serem inseridas em relatórios com uma alta quantidade de imagens geral arquivos .pdf ou de texto muito pesado. Isso ocorre também nos relatórios salvos com .html ou confeccionados em sistemas web.
